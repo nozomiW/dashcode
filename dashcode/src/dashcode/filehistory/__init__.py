@@ -3,4 +3,6 @@
 # Agent网站：xiaolinnote.com
 # 简历模版：jianli.xiaolinnote.com
 
+from dashcode.filehistory.history import FileHistory, Snapshot
 
+__all__ = ["FileHistory", "Snapshot"]
